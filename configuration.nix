@@ -15,7 +15,7 @@ in {
 		chown ${username}:${group} ${home}/.config/zellij
 		chmod 700 ${home}/.config/zellij
 
-		cp ${./zellij.conf} ${home}/.config/zellij/config.kdl
+		cp ${./config.kdl} ${home}/.config/zellij/config.kdl
 		chown ${username}:${group} ${home}/.config/zellij/config.kdl
 		chmod 600 ${home}/.config/zellij/config.kdl
 	'';
